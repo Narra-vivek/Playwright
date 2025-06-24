@@ -40,12 +40,12 @@ public class Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard {
     public void Validating_RegisterUser_checkout_Functionality() {
         try {
             hydro.SignIn_page(page);
-//            hydro.loginWithRegisteredUser(page, "LogInDetails");
-//            hydro.searchProduct(page, "Product_name");
-//            hydro.SRP_page(page);
-//            hydro.PDP_Page(page);
-//            hydro.minicart_Add_Address(page, "Register_Address");
-//            hydro.Shippment_and_Payment(page);
+            hydro.loginWithRegisteredUser(page, "LogInDetails");
+            hydro.searchProduct(page, "Product_name");
+            hydro.SRP_page(page);
+            hydro.PDP_Page(page);
+            hydro.minicart_Add_Address(page, "Register_Address");
+            hydro.Shippment_and_Payment(page);
         } catch (Exception e) {
             log.error("❌ Test failed due to exception:", e);
             Assert.fail("Test failed due to exception: " + e.getMessage());
