@@ -1,1 +1,0 @@
-{"uuid":"1be3a448-283a-4bf6-9a4e-efe3d5635ac4","name":"RegisterUser_Checkout_With_Creditcard","children":["578960fa-d911-4076-98d6-cb3bf7f9ae76"],"befores":[{"name":"setupAll","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750771313126,"stop":1750771313192}],"afters":[],"start":1750771313038,"stop":1750771375315}
