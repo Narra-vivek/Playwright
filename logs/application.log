@@ -1256,3 +1256,83 @@
 2025-06-24 17:31:30 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
 
 2025-06-24 17:31:32 [main] INFO  log - 🔚 Closed browser for: Validating_RegisterUser_checkout_Functionality
+2025-06-24 18:31:18 [main] INFO  log - Thread: 1 - Loading config & env
+2025-06-24 18:31:24 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:32:05 [main] WARN  TestMethodLogger - [33m⚠️ Test Skipped: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:32:05 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+
+2025-06-24 18:32:07 [main] INFO  log - 🔚 Closed browser for: Validating_RegisterUser_checkout_Functionality
+2025-06-24 18:32:10 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:33:07 [main] ERROR TestMethodLogger - [31m❌ Test Failed after retries: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:33:07 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+
+2025-06-24 18:33:10 [main] INFO  log - 🔚 Closed browser for: Validating_RegisterUser_checkout_Functionality
+2025-06-24 18:34:44 [main] INFO  log - Thread: 1 - Loading config & env
+2025-06-24 18:34:52 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:35:37 [main] WARN  TestMethodLogger - [33m⚠️ Test Skipped: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:35:37 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+
+2025-06-24 18:35:39 [main] INFO  log - 🔚 Closed browser for: Validating_RegisterUser_checkout_Functionality
+2025-06-24 18:35:43 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:36:26 [main] ERROR TestMethodLogger - [31m❌ Test Failed after retries: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:36:26 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+
+2025-06-24 18:36:28 [main] INFO  log - 🔚 Closed browser for: Validating_RegisterUser_checkout_Functionality
+2025-06-24 18:39:37 [main] INFO  log - Thread: 1 - Loading config & env
+2025-06-24 18:39:46 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:40:30 [main] WARN  TestMethodLogger - [33m⚠️ Test failed but will retry: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality | Attempt: 1[0m
+2025-06-24 18:40:30 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+
+2025-06-24 18:40:32 [main] INFO  log - 🔚 Closed browser for: Validating_RegisterUser_checkout_Functionality
+2025-06-24 18:42:44 [main] INFO  log - Thread: 1 - Loading config & env
+2025-06-24 18:42:52 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:43:34 [main] WARN  TestMethodLogger - [33m⚠️ Test failed but will retry: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality | Attempt: 1[0m
+2025-06-24 18:43:34 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+
+2025-06-24 18:43:40 [main] INFO  log - 🔚 Closed browser for: Validating_RegisterUser_checkout_Functionality
+2025-06-24 18:45:43 [main] INFO  log - Thread: 1 - Loading config & env
+2025-06-24 18:45:50 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:46:33 [main] ERROR TestMethodLogger - [31m❌ Test failed and no more retries left: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality | Final Attempt: 1[0m
+2025-06-24 18:46:33 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+
+2025-06-24 18:46:35 [main] INFO  log - 🔚 Closed browser for: Validating_RegisterUser_checkout_Functionality
+2025-06-24 18:49:31 [main] INFO  log - Thread: 1 - Loading config & env
+2025-06-24 18:49:40 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:50:29 [main] ERROR TestMethodLogger - [31m❌ Test failed and no more retries left: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality | Final Attempt: 1[0m
+2025-06-24 18:50:29 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+
+2025-06-24 18:50:31 [main] INFO  log - 🔚 Closed browser for: Validating_RegisterUser_checkout_Functionality
+2025-06-24 18:50:31 [main] INFO  log - Starting test on thread: 1
+2025-06-24 18:50:36 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard.Validating_GuestUser_checkout_Functionality[0m
+2025-06-24 18:51:07 [main] WARN  TestMethodLogger - [33m⚠️ Test Skipped: Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard.Validating_GuestUser_checkout_Functionality[0m
+2025-06-24 18:51:07 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard.Validating_GuestUser_checkout_Functionality[0m
+
+2025-06-24 18:51:09 [main] INFO  log - 🔚 Closed browser for: Validating_GuestUser_checkout_Functionality
+2025-06-24 18:51:13 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard.Validating_GuestUser_checkout_Functionality[0m
+2025-06-24 18:51:53 [main] INFO  log - Thread: 1 - Loading config & env
+2025-06-24 18:52:01 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+2025-06-24 18:52:49 [main] ERROR TestMethodLogger - [31m❌ Test failed and no more retries left: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality | Final Attempt: 1[0m
+2025-06-24 18:52:49 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
+
+2025-06-24 18:52:55 [main] INFO  log - 🔚 Closed browser for: Validating_RegisterUser_checkout_Functionality
+2025-06-24 18:52:55 [main] INFO  log - Starting test on thread: 1
+2025-06-24 18:53:00 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard.Validating_GuestUser_checkout_Functionality[0m
+2025-06-24 18:53:32 [main] ERROR TestMethodLogger - [31m❌ Test failed and no more retries left: Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard.Validating_GuestUser_checkout_Functionality | Final Attempt: 1[0m
+2025-06-24 18:53:32 [main] INFO  TestMethodLogger - [36m🔻 Closing browser for: Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard.Validating_GuestUser_checkout_Functionality[0m
+
+2025-06-24 18:53:34 [main] INFO  log - 🔚 Closed browser for: Validating_GuestUser_checkout_Functionality
+2025-06-24 18:54:15 [main] INFO  log - Thread: 1 - Loading config & env
+2025-06-24 18:54:24 [main] INFO  TestMethodLogger - 
+[1;34m🔹 Launched browser for: Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality[0m
