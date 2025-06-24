@@ -38,8 +38,7 @@ public class Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard {
         page = factory.initBrowser(); // ✅ Browser starts per test method
     }
 
-    @Test(description = "Guest User Checkout with CC Payment",
-    		retryAnalyzer = listeners.RetryAnalyzer.class)
+    @Test(description = "Guest User Checkout with CC Payment")
     @Description("This test case is to validate the guest user adding product to cart and checkout using the Credit card payment")
     @Feature("Guest user Checkout")
     

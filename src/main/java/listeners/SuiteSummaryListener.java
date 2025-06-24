@@ -20,14 +20,25 @@ public class SuiteSummaryListener implements ISuiteListener, ITestListener {
     @Override
     public void onStart(ISuite suite) {
         suiteName = suite.getName();
-        System.out.println("\n🚀🚀🚀 Launching Test Suite 🚀🚀🚀");
-        System.out.println("📦 Suite Name      : " + suiteName);
-        System.out.println("⏳ Status          : Running...");
-        System.out.println("🔥 Let the testing begin! 🔥\n");
+        if (!"Default suite".equalsIgnoreCase(suiteName)) {
+            System.out.println("\n🚀🚀🚀 Launching Test Suite 🚀🚀🚀");
+            System.out.println("📦 Suite Name      : " + suiteName);
+            int totalTestCount = suite.getAllMethods().size();
+            System.out.println("🔢 Total Test Cases: " + totalTestCount);
+            System.out.println("⏳ Status          : Running...");
+            System.out.println("🔥 Let the testing begin! 🔥\n");
+        }
     }
 
     @Override
     public void onFinish(ISuite suite) {
+        int totalTests = passedTestIds.size() + failedTestIds.size() + skippedTestIds.size();
+
+        // Skip the suite summary if only 1 test was executed
+        if (totalTests <= 1) {
+            return;
+        }
+
         System.out.println();
         System.out.println("✅✅✅ \u001B[1mTest Suite Execution Completed\u001B[0m ✅✅✅");
         System.out.println("📦 \u001B[1mSuite Name       :\u001B[0m " + suiteName);
@@ -61,6 +72,7 @@ public class SuiteSummaryListener implements ISuiteListener, ITestListener {
         System.out.println("📘 SUITE   : " + suiteName);
         System.out.println("🧾============================================================\n");
     }
+
 
     @Override
     public void onTestSuccess(ITestResult result) {

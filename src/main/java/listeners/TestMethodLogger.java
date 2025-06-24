@@ -36,10 +36,12 @@ public class TestMethodLogger implements ITestListener {
         int retryCount = RetryAnalyzer.getRetryCount(result);
         String methodName = getTestMethodName(result);
 
-        if (retryCount < RetryAnalyzer.MAX_RETRY) {
+        if (retryCount < RetryAnalyzer.MAX_RETRY - 1) {
             log.warn("\u001B[33m⚠️ Test failed but will retry: " + methodName + " | Attempt: " + (retryCount + 1) + "\u001B[0m");
+        } else if (retryCount == RetryAnalyzer.MAX_RETRY - 1) {
+            log.error("\u001B[31m❌ Test failed and no more retries left: " + methodName + " | Final Attempt: " + (retryCount + 1) + "\u001B[0m");
         } else {
-            log.error("\u001B[31m❌ Test Failed after retries: " + methodName + "\u001B[0m");
+            log.error("\u001B[31m❌ Test Failed: " + methodName + "\u001B[0m");
         }
 
         log.info("\u001B[36m🔻 Closing browser for: " + methodName + "\u001B[0m\n");
