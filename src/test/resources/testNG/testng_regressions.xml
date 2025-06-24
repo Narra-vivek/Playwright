@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hydroflask_Parallel_Suite" parallel="false" thread-count="5">
+<listeners>
+ <listener class-name="listeners.SuiteSummaryListener"/>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+</listeners>
+
+    <test name="RegisterUser_Checkout_With_Creditcard">
+        <classes>
+            <class name="testExecute.Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard"/>
+        </classes>
+    </test>
+
+    <test name="GuestUser_Checkout_With_Creditcard">
+        <classes>
+            <class name="testExecute.Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard"/>
+        </classes>
+    </test>
+
+
+    <!-- Add more tests as needed in similar structure -->
+
+</suite>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-24T17:31:19 IST" name="Default suite" finished-at="2025-06-24T17:31:32 IST" duration-ms="13307">
+    <groups>
+    </groups>
+    <test started-at="2025-06-24T17:31:19 IST" name="Default test" finished-at="2025-06-24T17:31:32 IST" duration-ms="13307">
+      <class name="testExecute.Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard">
+        <test-method is-config="true" signature="setupAll()[pri:0, instance:testExecute.Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard@6029f2a4]" started-at="2025-06-24T17:31:19 IST" name="setupAll" finished-at="2025-06-24T17:31:19 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAll -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.reflect.Method)[pri:0, instance:testExecute.Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard@6029f2a4]" started-at="2025-06-24T17:31:19 IST" name="setupBrowser" finished-at="2025-06-24T17:31:24 IST" duration-ms="5325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExecute.Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="Validating_RegisterUser_checkout_Functionality()[pri:0, instance:testExecute.Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard@6029f2a4]" started-at="2025-06-24T17:31:24 IST" name="Validating_RegisterUser_checkout_Functionality" description="Register User Checkout with CC Payment" finished-at="2025-06-24T17:31:30 IST" duration-ms="6326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validating_RegisterUser_checkout_Functionality -->
+        <test-method is-config="true" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:testExecute.Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard@6029f2a4]" started-at="2025-06-24T17:31:30 IST" name="tearDown" finished-at="2025-06-24T17:31:32 IST" duration-ms="1488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testExecute.Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard.Validating_RegisterUser_checkout_Functionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testExecute.Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

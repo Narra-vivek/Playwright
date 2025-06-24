@@ -1,0 +1,124 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>PlaywrightJava</groupId>
+    <artifactId>PlaywrightJava</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <properties>
+        <allure.version>2.24.0</allure.version>
+        <aspectj.version>1.9.21</aspectj.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencies> 
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+          <artifactId>allure-testng</artifactId>
+            <version>2.29.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.24.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.microsoft.playwright</groupId>
+            <artifactId>playwright</artifactId>
+            <version>1.51.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.1</version>
+        </dependency>
+
+    <!-- Apache POI for working with Excel -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>5.2.5</version>
+    </dependency>
+
+    <!-- Apache POI - OOXML support (for .xlsx files) -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>5.2.5</version>
+    </dependency>
+
+    <!-- XMLBeans required for POI -->
+    <dependency>
+        <groupId>org.apache.xmlbeans</groupId>
+        <artifactId>xmlbeans</artifactId>
+        <version>5.1.1</version>
+    </dependency>
+
+    <!-- Commons Compress (used internally by POI for .xlsx) -->
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-compress</artifactId>
+        <version>1.26.1</version>
+    </dependency>
+
+    <!-- Logging (optional, for debug logs inside POI) -->
+    <dependency>
+        <groupId>commons-logging</groupId>
+        <artifactId>commons-logging</artifactId>
+        <version>1.2</version>
+    </dependency>
+
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+       <plugins>
+    <!-- ✅ Compiler plugin -->
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+            <source>${maven.compiler.source}</source>
+            <target>${maven.compiler.target}</target>
+            <fork>true</fork>
+        </configuration>
+    </plugin>
+
+    <!-- ✅ Single Surefire plugin with all merged config -->
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.1.2</version> <!-- Use only one version -->
+        <configuration>
+            <testFailureIgnore>true</testFailureIgnore>
+            <suiteXmlFiles>
+                <suiteXmlFile>src/test/resources/${suiteXmlFile}</suiteXmlFile>
+            </suiteXmlFiles>
+            <argLine>
+                -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
+            </argLine>
+            <properties>
+                <property>
+                    <name>listener</name>
+                    <value>listeners.SuiteSummaryListener</value>
+                </property>
+            </properties>
+        </configuration>
+    </plugin>
+</plugins>
+
+    </build>
+</project>

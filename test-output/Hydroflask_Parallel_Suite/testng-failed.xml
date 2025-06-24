@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Hydroflask_Parallel_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="GuestUser_Checkout_With_Creditcard(failed)">
+    <classes>
+      <class name="testExecute.Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Validating_GuestUser_checkout_Functionality"/>
+          <include name="setupAll"/>
+          <include name="setupBrowser"/>
+        </methods>
+      </class> <!-- testExecute.Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard -->
+    </classes>
+  </test> <!-- GuestUser_Checkout_With_Creditcard(failed) -->
+</suite> <!-- Failed suite [Hydroflask_Parallel_Suite] -->
