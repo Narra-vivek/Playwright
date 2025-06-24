@@ -1,0 +1,5 @@
+# Allure results and test outputs
+allure-results/
+*.webm
+*.png
+*.zip
