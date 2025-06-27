@@ -51,10 +51,10 @@ public class SuiteSummaryListener implements ISuiteListener, ITestListener {
             int failed = context.getFailedTests().size();
             int skipped = context.getSkippedTests().size();
 
-            System.out.println("📊 \u001B[1mTest Name        :\u001B[0m " + testName);
+            System.out.println("📊 \u001B[1mTest Name          :\u001B[0m " + testName);
             System.out.println("    \u001B[32m✅ Passed        : " + passed + "\u001B[0m");
             System.out.println("    \u001B[31m❌ Failed        : " + failed + "\u001B[0m");
-            System.out.println("    \u001B[33m⚠️  Skipped       : " + skipped + "\u001B[0m");
+            System.out.println("    \u001B[33m⚠️  Skipped      : " + skipped + "\u001B[0m");
             System.out.println("============================================================");
         });
 

@@ -62,7 +62,7 @@ public class Hydroflask_Helper {
 	public void searchProduct(Page page, String Dataset) {
 		String product =data.get(Dataset).get("Product");
 	    try {
-	        page.locator("button[id='truste-consent-butto']").click();
+	        page.locator("button[id='truste-consent-button']").click();
 	        page.waitForLoadState(LoadState.LOAD);
 	        page.locator("//button[@id='menu-search-icon' and @x-show='!searchOpen']").click();
 	        page.locator("#autocomplete-0-input").fill(product);
