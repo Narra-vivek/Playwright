@@ -35,8 +35,8 @@ public class Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard {
     @BeforeMethod
     public void setupBrowser() {
         factory = new PlaywrightFactory();
-        page = factory.initBrowser(); // ✅ Browser starts per test method
-    }
+        page = factory.initBrowser(); 
+        }
 
     @Test(description = "Guest User Checkout with CC Payment")
     @Description("This test case is to validate the guest user adding product to cart and checkout using the Credit card payment")
@@ -46,10 +46,11 @@ public class Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard {
         
         try {
             Hydro.searchProduct(page, "Product_name");
-//            Hydro.SRP_page(page);
-//            Hydro.PDP_Page(page);
-//            Hydro.minicart_Add_Address(page,Register_Address);
-//            Hydro.Shippment_and_Payment(page);
+            Hydro.SRP_page(page);
+            Hydro.PDP_Page(page);
+            Hydro.minicart_Add_Address(page,"Register_Address");
+            Hydro.Shippment_and_Payment(page);
+            
         } catch (Exception | Error e) {
             e.printStackTrace();
             Assert.fail();
@@ -58,15 +59,18 @@ public class Test_DGLD_002_HF_US_GuestUser_Checkout_With_Creditcard {
 
     @AfterMethod
     public void tearDown(Method method) throws IOException, InterruptedException {
-    	 if (page != null) {
-         	factory.getVideo();
-             page.close();
-             factory.VideoRecord(method);
-             factory.recordTrace(method);
+    	/** if needed enable this 
+    	System.out.println("✅ Test completed. Press Enter to close browser...");	    
+    	System.in.read();
+    	page.pause(); 
+    	*/
+    	if (page != null) {
+            factory.getVideo();
+            page.close();
+            factory.VideoRecord(method);
+            factory.recordTrace(method);
         }
-        if (factory != null) {
-            factory.tearDown();
-            log.info("🔚 Closed browser for: " + method.getName());
-        }
+        if (factory != null) factory.tearDown();
+        log.info("🔚 Closed browser for: " + method.getName());
     }
 }

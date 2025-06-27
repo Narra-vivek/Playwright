@@ -34,8 +34,6 @@ public class Test_DGLD_001_HF_US_RegisterUser_Checkout_With_Creditcard {
     }
 
     @Test(description = "Register User Checkout with CC Payment")
-    
-
     @Description("Validate register user adds product to cart and completes checkout using credit card.")
     @Feature("Register user Checkout")
     public void Validating_RegisterUser_checkout_Functionality() {
