@@ -3,3 +3,19 @@ allure-results/
 *.webm
 *.png
 *.zip
+
+
+# .gitignore
+
+# Logs
+logs/
+*.log
+
+# Test output
+test-output/
+allure-results/
+traces/
+videos/
+
+# Images
+*.png
